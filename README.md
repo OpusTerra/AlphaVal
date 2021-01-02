@@ -1,6 +1,10 @@
 # AlphaVal
 
-![alt text](https://github.com/OusTerra/AlphaVal/blob/min/PuzzleCalcScreenE.jpg?raw=true)
+====================================================================================================
+ ================================== FRENCH VERSION FOLLOW ===========================================
+ ====================================================================================================
+
+![English Version](https://github.com/OpusTerra/AlphaVal/blob/main/PuzzleCalcScreenE.jpg?raw=true)
 
 Here is a smart little software tool that could help you get values while solving some puzzle geocaches.
 
@@ -22,3 +26,31 @@ The Joint Digital root (or mix digital root) is the combined digital root of the
 The following field is an easy way to obtain the ASCII values of each characters entered.
 
 Last field is simply the entered text reversed.
+
+=========================================================================================================
+![French Version](https://github.com/OpusTerra/AlphaVal/blob/main/PuzzleCalcScreenF.jpg?raw=true)
+
+Voici un petit outil logiciel qui pourrait s'avérer très utile lors de l'évaluation de certaines caches mystères.
+
+L'addition des nombres, aussi appelée checksum, correspond au total de l'addition de chacun des chiffres présents dans le texte. Ainsi, 12345 donnera 15.
+
+La racine digitale (digital root) dite numérique provient du résultat de l'évaluation d'un nombre selon une ancienne technique bien connue des adeptes de la numérologie. Il suffit d'additionner chacun des chiffres entre eux et de répéter cette somme jusqu'à ce que le total ne tienne que dans un seul chiffre. Ainsi 15 donnera 1 + 5 = 6 et 8134 donnera 8 + 1 + 3 + 4 = 16 et 1+6 = 7. À noter que cette racine n'est évaluée que pour les chiffres présents dans le texte.
+
+Pour les deux champs suivants, notez qu'il y a trois façons de faire l'évaluation de la conversion:
+
+A=1, B=2, ..., Z=26
+
+A=26, B=25, ..., Z=1
+
+Selon la valeur des lettres correspondantes à un chiffre sur un clavier téléphonique
+
+ 
+Le total alphabétique correspond à la sommes de la conversion alphabétique de chacune des lettres du texte inscrit. Si la table de conversion utilisée est: A=1, B=2, ..., Z=26, alors iconoclaste donnera 116. Avec A=26, on aura 181 et finalement 51 dans le cas des valeurs téléphoniques
+
+La racine digitale mixte est la racine digitale combinée du total alphabétique et de la racine digitale. Dans l'exemple ci-dessus, le total alphabétique du mot iconoclaste est de 116 en mode A=1. Si on joint à ce nombre les digits trouvés dans le texte, soit 12345, on aura alors la valeur 11612345 ce qui résulte en la racine digitale de valeur 5. Dans le cas A=26, la valeur de la racine digitale mixte deviendra alors 7 avec la série 18112345. Il en sera de même pour la méthode téléphonique avec la série 5112345 qui donnera 3.
+
+La valeur ASCII des caractères entrés.
+
+Le dernier champ en gris donne simplement à l'envers votre texte inscrit.
+
+Notez le bouton dans le coin droit inférieur. Il sert à opérer le logiciel en anglais. Ce choix sera sauvegardé entre les sessions.
