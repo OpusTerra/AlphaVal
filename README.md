@@ -27,7 +27,9 @@ The following field is an easy way to obtain the ASCII values of each characters
 
 Last field is simply the entered text reversed.
 
-=========================================================================================================
+------------------
+
+
 ![French Version](https://github.com/OpusTerra/AlphaVal/blob/main/PuzzleCalcScreenF.jpg?raw=true)
 
 Voici un petit outil logiciel qui pourrait s'avérer très utile lors de l'évaluation de certaines caches mystères.
