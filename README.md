@@ -1,4 +1,7 @@
 # AlphaVal
+
+![alt text](https://github.com/OusTerra/AlphaVal/blob/min/PuzzleCalcScreenE.jpg?raw=true)
+
 Here is a smart little software tool that could help you get values while solving some puzzle geocaches.
 
 The addition of all and only the number digits present in the specified text is called a checksum . So, iconoclaste12345 will give 15.
